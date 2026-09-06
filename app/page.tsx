@@ -19,7 +19,7 @@ export default function Home() {
  <SiteHeader/>
  <main id="main">
   <section className="hero" id="top" aria-labelledby="hero-title">
-   <img className="hero-image" src="/images/soil-hero.webp" alt="翠綠幼苗從深色土壤生長，AI生成品牌意象" width={1536} height={1024} fetchPriority="high"/>
+   <img className="hero-image" src="images/soil-hero.webp" alt="翠綠幼苗從深色土壤生長，AI生成品牌意象" width={1536} height={1024} fetchPriority="high"/>
    <div className="hero-wash" aria-hidden="true"/>
    <div className="hero-content wrap">
     <p className="eyebrow light"><span className="live-dot"/> 扎根大溪・共創永續</p>
@@ -47,7 +47,7 @@ export default function Home() {
 
   <section className="cycle-section wrap" id="cycle" aria-labelledby="cycle-title">
    <div className="section-heading"><div><p className="eyebrow">03 / 循環之道</p><h2 id="cycle-title">每一次回到土地，<br/>都是新的開始。</h2></div><p className="section-intro dark-copy">我們正在規劃的循環路徑，<br/>把資源、生產與生活重新連起來。</p></div>
-   <div className="cycle-story"><figure className="soil-figure"><img src="/images/compost-hands.webp" alt="雙手將堆肥撒入土壤，AI生成品牌意象" width={1536} height={1024} loading="lazy"/><figcaption>從一把土，開始理解循環。<span>AI 生成品牌意象</span></figcaption></figure><div className="cycle-statement"><span className="round-icon"><Recycle size={35} strokeWidth={1.2} aria-hidden="true"/></span><p>剩餘，<br/>也能成為<br/><em>下一次豐盛。</em></p><span>循環農業，是再沃連結五大業務的起點。</span></div></div>
+   <div className="cycle-story"><figure className="soil-figure"><img src="images/compost-hands.webp" alt="雙手將堆肥撒入土壤，AI生成品牌意象" width={1536} height={1024} loading="lazy"/><figcaption>從一把土，開始理解循環。<span>AI 生成品牌意象</span></figcaption></figure><div className="cycle-statement"><span className="round-icon"><Recycle size={35} strokeWidth={1.2} aria-hidden="true"/></span><p>剩餘，<br/>也能成為<br/><em>下一次豐盛。</em></p><span>循環農業，是再沃連結五大業務的起點。</span></div></div>
    <ol className="cycle-steps">{circle.map((s,i)=><li key={s.no}><div className="step-top"><span>{s.no}</span>{i<3?<ArrowRight size={24} aria-hidden="true"/>:<Recycle size={24} aria-hidden="true"/>}</div><h3>{s.title}</h3><p>{s.copy}</p><small>{s.tag}</small></li>)}</ol>
    <div className="cycle-loop"><Recycle size={18} aria-hidden="true"/><p>農業殘體再回到循環的起點，讓一次次生產，都有機會延續養分。</p></div>
    <p className="cycle-disclosure">以上為發展構想；收運、處理、場地與產品使用，將依合作條件及適用規範逐步落實。</p>

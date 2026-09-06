@@ -1,5 +1,11 @@
 # 台灣再沃官網
 
+公開網站：https://junghan0711-dot.github.io/taiwan-zaiwo/
+
+## GitHub Pages 發布
+
+使用 `npm run build:pages` 產生含預先渲染內容的靜態網站至 `docs/`，將原始碼與 `docs/` 一起提交並推送至 GitHub `main`。Pages 從 `main` 的 `/docs` 自動發布。互動由 React 接續載入，圖片路徑支援 `/taiwan-zaiwo/` 子目錄。`pages/index.html` 管理公開網站標題、描述與標準網址；原 Sites 私人預覽保留。
+
 2026-09-06 品牌籌備版。呈現品牌理念、五大業務規劃、循環流程與合作方向。
 
 ## 維護
